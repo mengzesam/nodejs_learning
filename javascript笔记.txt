@@ -8,6 +8,7 @@ npm link module_name
 则在$HOME/node_modules下链接了该模块
 
 关于vscode 的js自动提示
+先 npm  init会初始化一个目录作为项目的一些配置，生成package.json
 1、npm install typings --global后
 typings install moudlue_name（或加dt~前缀）现在不推荐这种方式而是
 2、npm install @types/module_name
