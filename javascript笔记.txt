@@ -1,3 +1,18 @@
+关于npm安装
+npm config ls -l查看config默认设置
+npm config set prefix='usr/local'
+设置-g安装module的位置在/usr/local/lib/node_modules
+但是require('module_name')后仍找不到
+需要
+npm link module_name
+则在$HOME/node_modules下链接了该模块
+
+关于vscode 的js自动提示
+1、npm install typings --global后
+typings install moudlue_name（或加dt~前缀）现在不推荐这种方式而是
+2、npm install @types/module_name
+会在项目所在的node_modules下产生相应模块的index.d.ts文件
+
 javascript and es6要点：
 1、循环变量与闭包
 2、=>和匿名函数
