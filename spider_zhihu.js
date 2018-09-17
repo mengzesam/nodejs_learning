@@ -15,7 +15,7 @@ var arg=parseInt(cl_args[0]);
 if(!isNaN(arg)) start=arg;
 if(cl_args.length==2)
 arg=parseInt(cl_args[1]);
-if(!isNaN(arg) && arg+start<=pages) pages=arg;
+if(!isNaN(arg) && arg+start<=pages+1) pages=arg;
 var pos_index=start;
 var fail_pages=[];
 spider_run();
