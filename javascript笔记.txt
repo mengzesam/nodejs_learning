@@ -1,0 +1,7 @@
+javascript and es6要点：
+1、循环变量与闭包
+2、=>和匿名函数
+3、let和var
+4、let、var分别用在有闭包的循环变量有何区别
+5、async/await机制
+6、commonJS关于Promise规范
